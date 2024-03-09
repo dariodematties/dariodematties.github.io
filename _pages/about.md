@@ -7,6 +7,19 @@ redirect_from:
   - /about.html
 ---
 
+Dario Dematties explores the intersection of deep learning and computational neuroscience. His work focuses on developing intelligent frameworks that combine self-supervised learning and reinforcement learning for efficient and precise data collection.
+
+At [NAISE](https://naise.northwestern.edu/), Dario utilizes PyTorch and Vision Transformers to develop self-supervised learning approaches for visual representations. He is particularly interested in applying these techniques to embodied AI systems, such as pan-tilt-zoom (PTZ) cameras with edge computing capabilities, to enable agentive exploration and dynamic adaptation to the environment.
+
+Dario's previous work at [CONICET](https://www.conicet.gov.ar/?lan=en) Argentina involved investigating self-supervised contrastive learning and deep reinforcement learning methods for studying saccadic behavior with foveated systems in computer vision. He has also explored the application of hybrid architectures (convolutional and transformer) to nanopore translocations.
+
+During his Ph.D., Dario delved into brain-inspired computational modeling, studying the dynamics of language acquisition in cortical systems. This background fuels his ongoing curiosity about bridging the gap between artificial and biological intelligence.
+
+Dario's research aims to develop a general intelligent framework that combines self-supervised learning algorithms like [JEPA](https://arxiv.org/abs/2301.08243) with reinforcement learning systems like [Dreamer](https://arxiv.org/abs/2206.14176), enabling embodied agents to efficiently collect and adapt to dynamic data in complex environments.
+
+
+
+
 <!--This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).-->
 
 <!--A data-driven personal website-->
