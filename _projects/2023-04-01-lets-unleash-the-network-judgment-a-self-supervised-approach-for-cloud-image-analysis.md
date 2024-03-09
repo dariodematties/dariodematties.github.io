@@ -1,0 +1,11 @@
+---
+title: "Let’s Unleash the Network Judgment: A Self-Supervised Approach for Cloud Image Analysis"
+collection: publications
+permalink: /publication/2023-04-01-lets-unleash-the-network-judgment-a-self-supervised-approach-for-cloud-image-analysis
+excerpt: 'This paper applies self-supervised learning for full-sky image analysis.'
+date: 2023-04-01
+venue: 'Artificial Intelligence for the Earth Systems'
+paperurl: 'https://journals.ametsoc.org/view/journals/aies/2/2/AIES-D-22-0063.1.xml'
+citation: 'Dario Dematties, et al. (2023). &quot;Let’s Unleash the Network Judgment: A Self-Supervised Approach for Cloud Image Analysis.&quot; <i>Artificial Intelligence for the Earth Systems</i>. 2(2).'
+---
+Accurate cloud-type identification and coverage analysis are crucial in understanding Earth’s radiative budget. Traditional computer vision methods rely on low-level visual features of clouds for estimating cloud coverage or sky conditions. Several handcrafted approaches have been proposed; however, scope for improvement still exists. Newer deep neural networks (DNNs) have demonstrated superior performance for cloud segmentation and categorization. These methods, however, need expert engineering intervention in the preprocessing steps—in the traditional methods—or human assistance in assigning cloud or clear-sky labels to a pixel for training DNNs. Such human mediation imposes considerable time and labor costs. We present the application of a new self-supervised learning approach to autonomously extract relevant features from sky images captured by ground-based cameras, for the classification and segmentation of clouds. We evaluate a joint embedding architecture that uses self-knowledge distillation plus regularization. We use two datasets to demonstrate the network’s ability to classify and segment sky images—one with ∼85 000 images collected from our ground-based camera and another with 400 labeled images from the WSISEG-Database. We find that this approach can discriminate full-sky images based on cloud coverage, diurnal variation, and cloud-base height. Furthermore, it semantically segments the cloud areas without labels. The approach shows competitive performance in all tested tasks, suggesting a new alternative for cloud characterization.

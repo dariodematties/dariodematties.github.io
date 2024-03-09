@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Dario Dematties"
   pronouns         : # example: "she/her"  
-  bio              : "As a Postdoctoral researcher at Northwestern-Argonne Institute of Science and Engineering (NAISE). Dario uses Self‑supervised Learning approaches for Visual Representations (using Vision Transformers) and applies Federated Learning in Edge and High Performance Computing (HPC) environments."
+  bio              : "As a Postdoctoral researcher at Northwestern-Argonne Institute of Science and Engineering (NAISE), Dario  uses Deep Learning Frameworks (Pytorch) for the development of Self‑supervised Learning approaches for Visual Representations (using Vision Transformers) and applies Federated Learning in Edge and High Performance Computing (HPC) environments."
   location         : "Illinois, US"
   employer         : "Northwester University"
   uri              : # URL
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=vpMd1bIAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-8726-7837"
+  orcid            : "https://orcid.org/0000-0002-8726-7837"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Dario-Dematties"
 
@@ -204,6 +204,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -245,6 +248,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true
