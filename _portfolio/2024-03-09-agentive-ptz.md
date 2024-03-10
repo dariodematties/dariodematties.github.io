@@ -1,0 +1,7 @@
+---
+title: "Unlocking Autonomy in Visual Data Collection through Agentive Search"
+excerpt: "This project aims to develop a novel intelligent framework that combines self-supervised learning and reinforcement learning to enable fully autonomous visual data collection using pan-tilt-zoom (PTZ) cameras<br/><img src='/images/Agentive_PTZ.png'>"
+collection: portfolio
+---
+
+This project aims to develop a novel intelligent framework that combines self-supervised learning and reinforcement learning to enable fully autonomous visual data collection using pan-tilt-zoom (PTZ) cameras. The proposed approach will provide the PTZ camera system with agency, allowing it to dynamically adapt its data acquisition strategy based on the visual environment. This contrasts with current approaches that rely on static, pre-trained models. By integrating an image-based joint embedding predictive architecture ([ I-JEPA ](https://arxiv.org/abs/2301.08243)) for self-supervised learning with the [ DayDreamer ](https://arxiv.org/abs/2206.14176) reinforcement learning algorithm, the camera will learn to actively explore and navigate the visual space, focusing its sensing capabilities on maximizing information gain. The envisioned framework has potential applications across domains requiring intelligent autonomous high-resolution scanning, promising more efficient, flexible and higher-precision data collection compared to current methods.
