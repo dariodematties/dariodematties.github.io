@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Dario Dematties / Professional Website"
 title_separator          : "-"
 name                     : &name "Dario Dematties"
-description              : &description "personal description"
+description              : &description "AI researcher and software developer specializing in autonomous perception, predictive world models, computer vision, and deep learning."
 url                      : https://dariodematties.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dariodematties/dariodematties.github.io"
@@ -24,11 +24,11 @@ author:
   avatar           : "profile.png"
   name             : "Dario Dematties"
   pronouns         : # example: "she/her"  
-  bio              : "As a Postdoctoral researcher at Northwestern-Argonne Institute of Science and Engineering (NAISE), Dario  uses Deep Learning Frameworks (Pytorch) for the development of Self‑supervised Learning approaches for Visual Representations (using Vision Transformers) and applies Federated Learning in Edge and High Performance Computing (HPC) environments."
-  location         : "Illinois, US"
-  employer         : "Northwester University"
+  bio              : "AI Software Developer at StanhopeAI working on probabilistic autonomy for drone systems in GNSS-denied environments. His work spans autonomous perception, predictive world models, self-supervised learning, Vision Transformers, reinforcement learning, edge AI, and HPC."
+  location         : "London, United Kingdom"
+  employer         : "StanhopeAI"
   uri              : # URL
-  email            : "ddematties@anl.gov" 
+  email            : "d.dematties@stanhopeai.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

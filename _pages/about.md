@@ -7,15 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-Dario Dematties explores the intersection of deep learning and computational neuroscience. His work focuses on developing intelligent frameworks that combine self-supervised learning and reinforcement learning for efficient and precise data collection.
+Dario Dematties is an AI researcher and software developer specializing in autonomous perception, predictive world models, computer vision, and deep learning. His work focuses on learning and inference systems that help autonomous agents interpret complex visual environments, reason under uncertainty, and act robustly when reliable satellite navigation is unavailable.
 
-At [NAISE](https://naise.northwestern.edu/), Dario utilizes PyTorch and Vision Transformers to develop self-supervised learning approaches for visual representations. He is particularly interested in applying these techniques to embodied AI systems, such as pan-tilt-zoom (PTZ) cameras with edge computing capabilities, to enable agentive exploration and dynamic adaptation to the environment.
+At StanhopeAI, Dario develops probabilistic autonomy software for drone systems operating in GNSS-denied environments. His work uses Active Inference and the Free Energy Principle for perception, belief updating, planning, and action selection under uncertainty, with implementations spanning Python, MATLAB, and C/C++.
 
-Dario's previous work at [CONICET](https://www.conicet.gov.ar/?lan=en) Argentina involved investigating self-supervised contrastive learning and deep reinforcement learning methods for studying saccadic behavior with foveated systems in computer vision. He has also explored the application of hybrid architectures (convolutional and transformer) to nanopore translocations.
+Previously, at the [Northwestern-Argonne Institute of Science and Engineering](https://naise.northwestern.edu/) and Argonne National Laboratory, Dario developed self-supervised representation-learning systems with PyTorch, Vision Transformers, DINO, VICReg, and I-JEPA. He worked on label-scarce environmental sensing, federated and distributed learning across edge and high-performance computing systems, and multimodal vision-language inference on edge GPU platforms.
 
-During his Ph.D., Dario delved into brain-inspired computational modeling, studying the dynamics of language acquisition in cortical systems. This background fuels his ongoing curiosity about bridging the gap between artificial and biological intelligence.
+Dario also built PTZJEPA, a closed-loop active perception framework that combines a predictive world model with reinforcement-learning control of a pan-tilt-zoom camera. The system learns where to observe by linking perception, prediction, and action in an embodied visual data collection loop.
 
-Dario's research aims to develop a general intelligent framework that combines self-supervised learning algorithms like [JEPA](https://arxiv.org/abs/2301.08243) with reinforcement learning systems like [Dreamer](https://arxiv.org/abs/2206.14176), enabling embodied agents to efficiently collect and adapt to dynamic data in complex environments.
+Earlier work at [CONICET](https://www.conicet.gov.ar/?lan=en) Argentina investigated self-supervised contrastive learning and deep reinforcement learning for biologically inspired active foveated vision, as well as convolutional and transformer architectures for nanopore signal analysis. During his Ph.D. at the University of Buenos Aires, Dario studied brain-inspired computational modeling and the dynamics of early language acquisition in cortical systems.
+
+Across these projects, Dario's research connects artificial and biological intelligence through autonomous perception, active learning, predictive representations, and embodied decision making.
 
 
 

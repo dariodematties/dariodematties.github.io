@@ -1,7 +1,16 @@
 ---
-title: "Unlocking Autonomy in Visual Data Collection through Agentive Search"
-excerpt: "This project aims to develop a novel intelligent framework that combines self-supervised learning and reinforcement learning to enable fully autonomous visual data collection using pan-tilt-zoom (PTZ) cameras<br/><img src='/images/Agentive_PTZ.png'>"
+title: "PTZJEPA: Predictive Active Vision for Autonomous Visual Data Collection"
+excerpt: "A closed-loop active perception framework that combines self-supervised predictive world models with reinforcement-learning control of pan-tilt-zoom (PTZ) cameras.<br/><img src='/images/Agentive_PTZ.png'>"
 collection: portfolio
 ---
 
-This project aims to develop a novel intelligent framework that combines self-supervised learning and reinforcement learning to enable fully autonomous visual data collection using pan-tilt-zoom (PTZ) cameras. The proposed approach will provide the PTZ camera system with agency, allowing it to dynamically adapt its data acquisition strategy based on the visual environment. This contrasts with current approaches that rely on static, pre-trained models. By integrating an image-based joint embedding predictive architecture ([ I-JEPA ](https://arxiv.org/abs/2301.08243)) for self-supervised learning with the [ DayDreamer ](https://arxiv.org/abs/2206.14176) reinforcement learning algorithm, the camera will learn to actively explore and navigate the visual space, focusing its sensing capabilities on maximizing information gain. The envisioned framework has potential applications across domains requiring intelligent autonomous high-resolution scanning, promising more efficient, flexible and higher-precision data collection compared to current methods.
+PTZJEPA is a closed-loop active perception framework that combines a predictive world model with reinforcement-learning control of a pan-tilt-zoom camera. The goal is to give visual sensing systems agency: instead of passively processing a fixed stream of images, the camera learns where to look next and adapts its data acquisition strategy to the visual environment.
+
+The project integrates image-based joint-embedding predictive learning ([I-JEPA](https://arxiv.org/abs/2301.08243)) with reinforcement-learning control inspired by [Dreamer](https://arxiv.org/abs/2206.14176). The agent learns predictive latent dynamics and uses them to choose camera movements that acquire informative observations. This links perception, prediction, and action in a single autonomous visual data collection loop.
+
+Applications include autonomous high-resolution scanning, environmental sensing, edge AI, robotic perception, and other domains where an embodied sensor must collect useful data under bandwidth, compute, or field-of-view constraints.
+
+<video controls preload="metadata" style="width: 100%; max-width: 900px;">
+  <source src="/files/Dario_Dematties_Towards_Self_Supervised_Learning_at_the_Edge.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
